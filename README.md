@@ -1,6 +1,6 @@
 # PoC using Semantic Kernel 
 
-PoC project to help myself learning with the power of AI :)
+PoC project to help myself learning with the power of AI using [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) :)
 Created reusable prompts to ask commons questions.
 
 # Usage

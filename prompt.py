@@ -10,7 +10,10 @@ kernel = sk.Kernel()
 api_key, org_id = sk.openai_settings_from_dot_env()
 kernel.add_text_completion_service("dv", OpenAITextCompletion("text-davinci-003", api_key, org_id))
 
-command_text = getattr(commands, command)(topic)
+if (command == '?'):
+    command_text = topic
+else:
+    command_text = getattr(commands, command)(topic)
 
 print(command_text)
 

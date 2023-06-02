@@ -29,9 +29,9 @@ AZURE_OPENAI_API_KEY=""
 
 At the root folder of this project, run the `prompt_cli.py` script and pass a command and a topic as arguments
 ```sh
-# python ./prompt_cli <COMMAND> "<TOPIC>"
+# python ./prompt_cli.py <COMMAND> "<TOPIC>"
 # Example:
-  python ./prompt tradeoff "use microservices or monolith"
+  python ./prompt_cli.py "tradeoff" "use microservices or monolith"
 ```
 
 ## Available commands

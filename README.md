@@ -18,8 +18,11 @@ Create an `.env` file with
 [Azure Open AI service key](https://learn.microsoft.com/azure/cognitive-services/openai/quickstart?pivots=rest-api)
 
 ```
+# OpenAI
 OPENAI_API_KEY=""
 OPENAI_ORG_ID=""
+
+# or Azure OpenAI
 AZURE_OPENAI_DEPLOYMENT_NAME=""
 AZURE_OPENAI_ENDPOINT=""
 AZURE_OPENAI_API_KEY=""
